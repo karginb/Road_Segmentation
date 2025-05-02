@@ -1,0 +1,11 @@
+# dataset.yaml
+
+path: /home/berat/Computer_Vision/Road_Segmentation
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: road
+
