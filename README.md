@@ -62,9 +62,9 @@ python segformer_inference.py
 - SegFormer provided more detailed and refined segmentation maps, particularly in complex road patterns and occluded areas.
 - The trade-off between processing speed and segmentation quality was evident, suggesting potential for hybrid models in future work.
 
-![YOLOv8-Seg Result](/home/berat/Computer_Vision/Road_Segmentation/runs/road_seg_img_result/Seq05VD_f04110.png)
+![YOLOv8-Seg Result](https://github.com/karginb/Road_Segmentation/blob/main/runs/road_seg_img_results/Seq05VD_f04110.png)
 
-![SegFormer Result](/home/berat/Computer_Vision/Road_Segmentation/segformer_output/inference/Seq05VD_f04110.png)
+![SegFormer Result](https://github.com/karginb/Road_Segmentation/blob/main/segformer_output/segformer_inference/Seq05VD_f04110.png)
 
 
 
