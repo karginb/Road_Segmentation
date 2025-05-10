@@ -107,8 +107,6 @@ trainer = Trainer(
 
 trainer.train()
 
-trainer.train()
-
 last_checkpoint_dir = os.path.join(
     os.path.expanduser(args.output_dir),
     f"checkpoint-{trainer.state.global_step}"
