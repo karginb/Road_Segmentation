@@ -44,6 +44,7 @@ cd Road_Segmentation
 ```
 2. Download the CamVid dataset and place it in the `images/` directory.
 ```bash
+https://www.kaggle.com/datasets/carlolepelaars/camvid
 ```
 3. Train the models:
 ```bash
@@ -60,7 +61,9 @@ python segformer_inference.py
 - YOLOv8-Seg achieved faster inference times and demonstrated strong accuracy with minimal computational resources.
 - SegFormer provided more detailed and refined segmentation maps, particularly in complex road patterns and occluded areas.
 - The trade-off between processing speed and segmentation quality was evident, suggesting potential for hybrid models in future work.
+
 ![YOLOv8-Seg Result](/home/berat/Computer_Vision/Road_Segmentation/runs/road_seg_img_result/Seq05VD_f04110.png)
+
 ![SegFormer Result](/home/berat/Computer_Vision/Road_Segmentation/segformer_output/inference/Seq05VD_f04110.png)
 
 
