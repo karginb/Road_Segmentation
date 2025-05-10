@@ -41,19 +41,20 @@ The following evaluation metrics were used to assess model performance:
 ```bash
 git clone https://github.com/karginb/Road_Segmentation.git
 cd Road_Segmentation
-
+```
 2. Download the CamVid dataset and place it in the `images/` directory.
-
+```bash
+```
 3. Train the models:
 ```bash
 python yolo_segment_train.py
 python segformer_train.py
-
+```
 4. Inference:
 ```bash
 python yolo_segment_inference.py
 python segformer_inference.py
-
+```
 
 ## 📈 Results and Analysis
 - YOLOv8-Seg achieved faster inference times and demonstrated strong accuracy with minimal computational resources.
